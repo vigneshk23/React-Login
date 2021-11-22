@@ -30,10 +30,10 @@ return (
 </div>
 <br></br>
 <div>
-<input type="text" placeholder="username" onChange={e=> setName(e.target.value)}></input>
+<input type="text" placeholder="     username" onChange={e=> setName(e.target.value)}></input>
 </div>
 <div className="second-input">
-<input type="password" placeholder="password"  onChange={e=> setPassword(e.target.value)}></input>
+<input type="password" placeholder="     password"  onChange={e=> setPassword(e.target.value)}></input>
 </div>
 <div className="login-button">
 <button onClick={routeToNext}>login</button>

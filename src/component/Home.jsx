@@ -7,17 +7,14 @@ const Home = () => {
         navigate("./") 
     }
     return(
-  <div class="bg-img">
-  <div class="container">
-    <div class="topnav">
-      <a href="#home">Home</a>
+      <div class="topnav">
+      <a class="active" href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
-      <a href="/" onClick={routeToNext}>Logout</a>
+      <div class="topnav-right">
+        <a href="/" onClick={routeToNext}>Logout</a>
+      </div>
     </div>
-  </div>
-</div>
-
         
         
         
