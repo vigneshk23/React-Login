@@ -7,6 +7,7 @@ const Home = () => {
         navigate("./") 
     }
     return(
+      <div>
       <div class="topnav">
       <a class="active" href="#home">Home</a>
       <a href="#about">About</a>
@@ -14,10 +15,8 @@ const Home = () => {
       <div class="topnav-right">
         <a href="/" onClick={routeToNext}>Logout</a>
       </div>
+    </div><h1>WELCOME TO HOME</h1>
     </div>
-        
-        
-        
     );
 };
 export default Home;
